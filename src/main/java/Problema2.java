@@ -1,6 +1,6 @@
 
 /**Problema 2:
- *Calcular el n - ésimo número de Fibonacci.
+ *Calcular el n - ésimo número de Fibonacci
  * @author yisus
  */
 import java.util.Scanner;
@@ -12,11 +12,11 @@ System.out.println("Introduce el numero de elementos de la serie fibonacci: ");
 n = sc.nextInt();
     for(int i =1 ; i <= n ; i++ ){
            System.out.println(a+", ");
-           tmp=a+b;
-a=b;
+          tmp=a+b;
+          a=b;
 b=tmp;
- }
+}
     sc.close();
 }
-
+ 
 }
